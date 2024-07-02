@@ -10,11 +10,14 @@ class Program
         // TEST: instantiate a card
         Card card1 = new Card('D', 4);
         // use the new card's Display method to, er, display it
-        card1.Display;    }
+        card1.Display()
+        ;    }
 }
 
 class Card
 {
+    
+    // attribute
     private char suit;
     private int rank;
 
@@ -24,7 +27,7 @@ class Card
         rank = r;
     }
 
-    public int GetSuit()
+    public char GetSuit()
     {
         return suit;
     }
