@@ -39,7 +39,7 @@ class Card
 
     public void Display()
     {  
-        Console.Write($"|{rank}{suit}|");
+        Console.WriteLine($"|{rank}{suit}|");
     }
     
 }
